@@ -1,0 +1,25 @@
+--CREATE DATABASE DjurDb;
+--CREATE TABLE DjurTbl(
+--	"Id" Int Primary Key,
+--	"Name"nvarchar(max) NOT NULL,
+--);
+--INSERT INTO DjurTbl (Id, Name) VALUES ('1', 'Hamster');
+--INSERT INTO DjurTbl (Id, Name) VALUES ('2', 'Hund');
+--INSERT INTO DjurTbl (Id, Name) VALUES ('3', 'Kanin');
+--INSERT INTO DjurTbl (Id, Name) VALUES ('4', 'Katt');
+--SELECT * FROM DjurTbl;
+--USE master
+--DROP DATABASE DjurDb;
+--CREATE DATABASE KlassenDB;
+USE KlassenDB;
+--CREATE TABLE [Knäcke](
+--	"Id" Int Primary Key,
+--	[Förnamn] nvarchar(max) NOT NULL,
+--	"Efternamn" nvarchar(max) NOT NULL,
+--	[Ålder] int,
+--	"Hemort" nvarchar(max) NOT NULL
+--);
+--INSERT INTO [Knäcke] (Id, [Förnamn], "Efternamn", [Ålder], "Hemort") VALUES ('1', 'Olle', 'Hejmbrant', '30', 'Kungsbacka');
+--INSERT INTO [Knäcke] (Id, [Förnamn], "Efternamn", [Ålder], "Hemort") VALUES ('2', 'Adam', 'Rydberg', '20', 'Mölndal');
+--INSERT INTO [Knäcke] (Id, [Förnamn], "Efternamn", [Ålder], "Hemort") VALUES ('3', 'Tobbe', 'Ehlme', '22', 'Kålltorp');
+SELECT * FROM Knäcke;
